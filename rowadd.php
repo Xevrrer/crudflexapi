@@ -18,11 +18,10 @@ if(!$tokenData){
 	exit();
 }
 
-/*
-if(!$tokenData['admin'){
+if(!$tokenData['admin']){
 	echo json_encode(array("blocked" => 'Only admin have this permission.'));
 	exit(http_response_code(404));
-}*/
+}
 
 
 
